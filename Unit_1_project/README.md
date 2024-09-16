@@ -30,10 +30,10 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-<img src='"unit1.gif"' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+![Unit 1 GIF] (unit1.gif)
 
 <!-- Replace this with whatever GIF tool you used! -->
-GIF created with ...  
+GIF created with ScreenToGif 
 <!-- Recommended tools:
 [Kap](https://getkap.co/) for macOS
 [ScreenToGif](https://www.screentogif.com/) for Windows
