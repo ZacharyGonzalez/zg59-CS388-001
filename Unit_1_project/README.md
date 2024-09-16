@@ -29,8 +29,7 @@ The following **additional** features are implemented:
 ## Video Walkthrough
 
 Here's a walkthrough of implemented user stories:
-
-![Unit-1-Project] (https://github.com/Venrite/zg59-CS388-001/blob/Unit-1-project/Unit_1_project/unit1.gif)
+<img src= "https://github.com/Venrite/zg59-CS388-001/blob/Unit-1-project/Unit_1_project/unit1.gif"/>
 
 <!-- Replace this with whatever GIF tool you used! -->
 GIF created with ScreenToGif 
