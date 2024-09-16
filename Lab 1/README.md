@@ -12,23 +12,23 @@ Time spent: **1** hours spent in total <!-- Replace 'X' with the number of hours
 
 The following **required** functionality is completed:
 
-- [ ] **User can see a number displayed on the screen. The number starts at 0.**
+- [x] **User can see a number displayed on the screen. The number starts at 0.**
     - ![Image/GIF showing the initial display of the number](http://i.imgur.com/link/to/your/gif/file.gif) <!-- Replace this link with your actual image/GIF link -->
 
-- [ ] **User can tap on a button to see the number displayed increase by 1.**
+- [x] **User can tap on a button to see the number displayed increase by 1.**
     - ![Image/GIF showing the number increase on button tap](http://i.imgur.com/link/to/your/gif/file.gif) <!-- Replace this link with your actual image/GIF link -->
 
 ## Stretch Features
 
 The following **optional** features are implemented:
 
-- [ ] User can exchange number of taps accumulated for upgrades (e.g., each tap counts as 2 taps).
+- [x] User can exchange number of taps accumulated for upgrades (e.g., each tap counts as 2 taps).
     - ![Image/GIF showing the upgrade process](http://i.imgur.com/link/to/your/gif/file.gif) <!-- Replace this link with your actual image/GIF link -->
 
 - [ ] User can customize the app's theme (e.g., using a dog background and a paw print button). 
     - ![Image/GIF showing theme customization](http://i.imgur.com/link/to/your/gif/file.gif) <!-- Replace this link with your actual image/GIF link -->
 
-- [ ] User has progressively difficult goals to reach in terms of number of taps accumulated.
+- [x] User has progressively difficult goals to reach in terms of number of taps accumulated.
     - ![Image/GIF showing goals and progress](http://i.imgur.com/link/to/your/gif/file.gif) <!-- Replace this link with your actual image/GIF link -->
 
 ## Notes
