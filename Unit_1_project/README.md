@@ -28,7 +28,7 @@ The following **additional** features are implemented:
 
 ## Video Walkthrough
 
-Here's a walkthrough of implemented user stories:
+Here's a walkthrough of implemented user stories (I am bad at this wordle but a toast appears when you get it right):
 <img src= "https://github.com/Venrite/zg59-CS388-001/blob/Unit-1-project/Unit_1_project/unit1.gif"/>
 
 <!-- Replace this with whatever GIF tool you used! -->
