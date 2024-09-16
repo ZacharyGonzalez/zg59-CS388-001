@@ -40,7 +40,7 @@ GIF created with ScreenToGif
 
 ## Notes
 
-Describe any challenges encountered while building the app.
+I was using Android studio's connection to github to try and add, commit, and push my code and somehow i Rolled back my local repo to the remote repo; which was empty. Aside from that the main difficulties in this project was the confetti, the Spannables, and generally working with the UI as it did not feel intuitive laying out the buttons and textboxes. I like coding in kotlin but i'm not a fan of intermingling it with the UI; primarily since its my first time messing with it i felt i learned more than i accomplished.
 
 ## License
 
