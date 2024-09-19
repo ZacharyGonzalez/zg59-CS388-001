@@ -18,7 +18,6 @@ class EmailAdapter(private val emails: List<Email>) : RecyclerView.Adapter<Email
         val senderTextView: TextView
         val titleTextView: TextView
         val summaryTextView: TextView
-        val dateTextView: TextView
 
         //inner class
 
@@ -28,7 +27,6 @@ class EmailAdapter(private val emails: List<Email>) : RecyclerView.Adapter<Email
             senderTextView= itemView.findViewById(R.id.senderTv)
             titleTextView= itemView.findViewById(R.id.titleTv)
             summaryTextView= itemView.findViewById(R.id.summaryTv)
-            dateTextView= itemView.findViewById(R.id.dateTv)
         }
     }
 
@@ -53,6 +51,5 @@ class EmailAdapter(private val emails: List<Email>) : RecyclerView.Adapter<Email
         holder.senderTextView.text = email.sender
         holder.titleTextView.text = email.title
         holder.summaryTextView.text = email.summary
-        holder.dateTextView.text = email.date
     }
 }

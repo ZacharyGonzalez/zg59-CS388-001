@@ -10,26 +10,15 @@
     >
 
     <TextView
-        android:id="@+id/dateTv"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="188dp"
-        android:padding="2dp"
-        app:layout_constraintStart_toEndOf="@+id/titleTv"
-        tools:layout_constraintStart_toStartOf="parent"
-        tools:layout_constraintTop_toBottomOf="@+id/senderTv"
-        tools:layout_editor_absoluteY="30dp"
-        tools:text="PLACEHOLDER TITLE" />
-
-    <TextView
         android:id="@+id/summaryTv"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="19dp"
         android:padding="2dp"
+        app:layout_constraintTop_toBottomOf="@+id/titleTv"
         tools:layout_constraintStart_toStartOf="parent"
         tools:layout_constraintTop_toBottomOf="@+id/titleTv"
         tools:layout_editor_absoluteX="7dp"
-        tools:layout_editor_absoluteY="130dp"
         tools:text="PLACEHOLDER EMAIL CONTENT" />
 
     <TextView
@@ -37,10 +26,10 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:padding="2dp"
+        app:layout_constraintTop_toBottomOf="@+id/senderTv"
         tools:layout_constraintStart_toStartOf="parent"
         tools:layout_constraintTop_toBottomOf="@+id/senderTv"
         tools:layout_editor_absoluteX="7dp"
-        tools:layout_editor_absoluteY="107dp"
         tools:text="PLACEHOLDER TITLE" />
 
     <TextView
@@ -49,10 +38,10 @@
         android:layout_height="wrap_content"
         android:padding="2dp"
         android:textSize="20sp"
+        app:layout_constraintTop_toTopOf="parent"
         tools:layout_constraintStart_toStartOf="parent"
         tools:layout_constraintTop_toTopOf="parent"
         tools:layout_editor_absoluteX="7dp"
-        tools:layout_editor_absoluteY="7dp"
         tools:text="PLACEHOLDER NAME" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
