@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Unit_1_project</string>
+    <string name="enter_your_guess">Enter your guess</string>
+    <string name="submit">Submit</string>
+    <string name="result_will_appear_here">Result will appear here</string>
+    <string name="please_enter_a_4_letter_word">Please enter a 4-letter word.</string>
+    <string name="Results">Result will appear here</string>
+    <string name="Guesses">Previous guesses will appear here</string>
+</resources>
