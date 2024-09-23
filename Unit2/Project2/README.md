@@ -27,15 +27,14 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='https://github.com/Venrite/zg59-CS388-001/blob/Unit2_Project/Unit2/Project2/project2.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 GIF created with:
 [ScreenToGif](https://www.screentogif.com/) for Windows
 
 
 ## Notes
-
-Describe any challenges encountered while building the app.
+Should maybe condense URLS so the aren't so obnoxious, and make list elements to differentiate each item more.
 
 ## License
 
