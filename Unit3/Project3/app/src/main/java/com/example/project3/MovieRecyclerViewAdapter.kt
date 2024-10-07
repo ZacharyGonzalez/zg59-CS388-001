@@ -1,5 +1,6 @@
 package com.example.project3
 
+import android.content.res.Configuration
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -20,10 +21,7 @@ class MovieRecyclerViewAdapter(
         return BookViewHolder(view)
     }
 
-    /**
-     * This inner class lets us refer to all the different View elements
-     * (Yes, the same ones as in the XML layout files!)
-     */
+
     inner class BookViewHolder(val mView: View) : RecyclerView.ViewHolder(mView) {
         var mItem: Movie? = null
         val mMovieTitle: TextView = mView.findViewById<View>(R.id.banner) as TextView
@@ -36,12 +34,23 @@ class MovieRecyclerViewAdapter(
      */
     override fun onBindViewHolder(holder: BookViewHolder, position: Int) {
         val movie = movies[position]
-        val URl= "https://image.tmdb.org/t/p/w500/"
+        val URl= "https://image.tmdb.org/t/p/w500/" //this is the preface to what the json delivers us for a URL
         holder.mItem = movie
         holder.mMovieTitle.text = movie.title
         holder.mOverview.text = movie.overview
+
+        // Check the orientation
+        var image:String?=null
+        val orientation = holder.mView.resources.configuration.orientation
+        if (orientation == Configuration.ORIENTATION_PORTRAIT) {
+            image = URl+movie.movieImageUrl
+        } else if (orientation == Configuration.ORIENTATION_LANDSCAPE) {
+            image = URl+movie.landscapeimage
+        }
+
         Glide.with(holder.mView)
-            .load(URl+movie.movieImageUrl)//this might be wrong
+            .load(image)
+            .placeholder(R.drawable.ic_launcher_foreground)
             .centerInside()
             .into(holder.mMovieImage)
 

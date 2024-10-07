@@ -36,17 +36,14 @@ class MovieFragment : Fragment(), OnListFragmentInteractionListener {
         return view
     }
 
-    /*
-     * Updates the RecyclerView adapter with new data. This is where the
-     * networking magic happens!
-     */
+
     private fun updateAdapter(progressBar: ContentLoadingProgressBar, recyclerView: RecyclerView) {
         progressBar.show()
 
         // Create and set up an AsyncHTTPClient
         val client = AsyncHttpClient()
         val params = RequestParams()
-        params["api_key"] = API_KEY // Use "api_key" instead of "api-key"
+        params["api_key"] = API_KEY
 
         // Perform the HTTP request
         client.get(
@@ -65,7 +62,6 @@ class MovieFragment : Fragment(), OnListFragmentInteractionListener {
                     val resultsJSON: JSONArray = json.jsonObject.getJSONArray("results") // Use getJSONArray
                     val gson = Gson()
                     val arrayMovieType = object : TypeToken<List<Movie>>() {}.type
-
                     // Convert JSON array to list of Movie objects
                     val models: List<Movie> = gson.fromJson(resultsJSON.toString(), arrayMovieType)
                     recyclerView.adapter = MovieRecyclerViewAdapter(models, this@MovieFragment)
