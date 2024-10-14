@@ -15,19 +15,19 @@ Time spent: **3** hours spent in total <!-- Replace 'X' with the number of hours
 The following **required** functionality is completed:
 
 - [x] (2 pts) **Use rapidapi.com to find a Joke API (use BuildConfig).**
-  - ![Image/GIF showing API integration](http://i.imgur.com/link/to/your/gif/file.gif) <!-- Replace this link with your actual image/GIF link -->
+  - ![Image/GIF showing API integration](https://github.com/Venrite/zg59-CS388-001/blob/main/Extra%20Credit/extracredit1.gif) <!-- Replace this link with your actual image/GIF link -->
 - [x] (2 pts) **Fetch a list of jokes and display them in a RecyclerView.**
   - Displays a list of jokes fetched from the API.
-  - ![Image/GIF showing jokes list](http://i.imgur.com/link/to/your/gif/file.gif) <!-- Replace this link with your actual image/GIF link -->
+  - ![Image/GIF showing jokes list](https://github.com/Venrite/zg59-CS388-001/blob/main/Extra%20Credit/extracredit2.gif) <!-- Replace this link with your actual image/GIF link -->
 - [x] (2 pts) **Click a joke to display it in centered format.**
   - When a joke is clicked, it opens in a centered format on a new screen.
-  - ![Image/GIF showing centered joke view](http://i.imgur.com/link/to/your/gif/file.gif) <!-- Replace this link with your actual image/GIF link -->
+  - ![Image/GIF showing centered joke view](https://github.com/Venrite/zg59-CS388-001/blob/main/Extra%20Credit/extracredit3.gif) <!-- Replace this link with your actual image/GIF link -->
 - [x] (2 pts) **Provide social sharing options for at least 2 platforms (e.g., X, Facebook).**
   - Users can share a joke on selected social media platforms.
-  - ![Image/GIF showing social media share feature](http://i.imgur.com/link/to/your/gif/file.gif) <!-- Replace this link with your actual image/GIF link -->
+  - ![Image/GIF showing social media share feature](https://github.com/Venrite/zg59-CS388-001/blob/main/Extra%20Credit/extracredit3.gif) <!-- Replace this link with your actual image/GIF link -->
 - [x] (2 pts) **Customize the theme of the app.**
   - Custom theme applied to the app instead of the default Android theme.
-  - ![Image/GIF showing app theme customization](http://i.imgur.com/link/to/your/gif/file.gif) <!-- Replace this link with your actual image/GIF link -->
+  - ![Image/GIF showing app theme customization](https://github.com/Venrite/zg59-CS388-001/blob/main/Extra%20Credit/extracredit2.gif) <!-- Replace this link with your actual image/GIF link -->
 
 ### Stretch Features
 
