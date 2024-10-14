@@ -1,0 +1,10 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Joker" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">#F02020</item>
+        <item name="colorPrimaryDark">#C00C0C</item>
+        <item name="colorAccent">#FF4081</item>
+    </style>
+
+    <style name="Theme.Joker" parent="Base.Theme.Joker" />
+</resources>
