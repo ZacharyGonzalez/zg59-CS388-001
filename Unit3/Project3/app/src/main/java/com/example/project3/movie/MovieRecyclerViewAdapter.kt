@@ -1,4 +1,4 @@
-package com.example.project3
+package com.example.project3.movie
 
 import android.content.res.Configuration
 import android.view.LayoutInflater
@@ -8,31 +8,33 @@ import android.widget.ImageView
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
+import com.example.project3.OnListFragmentInteractionListener
+import com.example.project3.R
 
 class MovieRecyclerViewAdapter(
     private val movies: List<Movie>,
     private val mListener: OnListFragmentInteractionListener?
     )
-    : RecyclerView.Adapter<MovieRecyclerViewAdapter.BookViewHolder>()
+    : RecyclerView.Adapter<MovieRecyclerViewAdapter.MovieViewHolder>()
     {
-    override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): BookViewHolder {
+    override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): MovieViewHolder {
         val view = LayoutInflater.from(parent.context)
             .inflate(R.layout.fragment_movie, parent, false)
-        return BookViewHolder(view)
+        return MovieViewHolder(view)
     }
 
 
-    inner class BookViewHolder(val mView: View) : RecyclerView.ViewHolder(mView) {
+    inner class MovieViewHolder(val mView: View) : RecyclerView.ViewHolder(mView) {
         var mItem: Movie? = null
-        val mMovieTitle: TextView = mView.findViewById<View>(R.id.banner) as TextView
-        val mOverview: TextView = mView.findViewById<View>(R.id.overview) as TextView
+        val mMovieTitle: TextView = mView.findViewById<View>(R.id.MovieBanner) as TextView
+        val mOverview: TextView = mView.findViewById<View>(R.id.MovieOverview) as TextView
         val mMovieImage: ImageView = mView.findViewById<View>(R.id.movie_image) as ImageView
     }
 
     /**
      * This lets us "bind" each Views in the ViewHolder to its' actual data!
      */
-    override fun onBindViewHolder(holder: BookViewHolder, position: Int) {
+    override fun onBindViewHolder(holder: MovieViewHolder, position: Int) {
         val movie = movies[position]
         val URl= "https://image.tmdb.org/t/p/w500/" //this is the preface to what the json delivers us for a URL
         holder.mItem = movie
@@ -43,9 +45,9 @@ class MovieRecyclerViewAdapter(
         var image:String?=null
         val orientation = holder.mView.resources.configuration.orientation
         if (orientation == Configuration.ORIENTATION_PORTRAIT) {
-            image = URl+movie.movieImageUrl
+            image = URl+movie.posterPath
         } else if (orientation == Configuration.ORIENTATION_LANDSCAPE) {
-            image = URl+movie.landscapeimage
+            image = URl+movie.backdropPath
         }
 
         Glide.with(holder.mView)
@@ -55,8 +57,8 @@ class MovieRecyclerViewAdapter(
             .into(holder.mMovieImage)
 
         holder.mView.setOnClickListener {
-            holder.mItem?.let { book ->
-                mListener?.onItemClick(book)
+            holder.mItem?.let { movie ->
+                mListener?.onItemClick(movie)
             }
 
         }
