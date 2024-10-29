@@ -1,4 +1,4 @@
-package com.example.project3
+package com.example.project3.movie
 
 import android.os.Bundle
 import android.util.Log
@@ -8,18 +8,21 @@ import android.view.ViewGroup
 import android.widget.Toast
 import androidx.core.widget.ContentLoadingProgressBar
 import androidx.fragment.app.Fragment
-import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.codepath.asynchttpclient.AsyncHttpClient
 import com.codepath.asynchttpclient.RequestParams
 import com.codepath.asynchttpclient.callback.JsonHttpResponseHandler
+import com.example.project3.actor.Actor
+import com.example.project3.BuildConfig
+import com.example.project3.OnListFragmentInteractionListener
+import com.example.project3.R
 import com.google.gson.Gson
 import com.google.gson.reflect.TypeToken
 import okhttp3.Headers
 import org.json.JSONArray
 
-private const val API_KEY = "a07e22bc18f5cb106bfe4cc1f83ad8ed"
+private var API_KEY = BuildConfig.API_KEY
 
 class MovieFragment : Fragment(), OnListFragmentInteractionListener {
 
@@ -28,10 +31,10 @@ class MovieFragment : Fragment(), OnListFragmentInteractionListener {
         savedInstanceState: Bundle?
     ): View? {
         val view = inflater.inflate(R.layout.fragment_movie_list, container, false)
-        val progressBar = view.findViewById<ContentLoadingProgressBar>(R.id.progress)
-        val recyclerView = view.findViewById<RecyclerView>(R.id.list)
+        val progressBar = view.findViewById<ContentLoadingProgressBar>(R.id.MovieProgress)
+        val recyclerView = view.findViewById<RecyclerView>(R.id.MovieHorizontalRecyclerView)
         val context = view.context
-        recyclerView.layoutManager = GridLayoutManager(context, 1)
+        recyclerView.layoutManager = LinearLayoutManager(context,LinearLayoutManager.HORIZONTAL,false)
         updateAdapter(progressBar, recyclerView)
         return view
     }
@@ -47,7 +50,7 @@ class MovieFragment : Fragment(), OnListFragmentInteractionListener {
 
         // Perform the HTTP request
         client.get(
-            "https://api.themoviedb.org/3/movie/now_playing", // Correct endpoint for popular movies
+            "https://api.themoviedb.org/3/movie/popular", // Correct endpoint for popular movies
             params,
             object : JsonHttpResponseHandler() {
                 override fun onSuccess(
@@ -86,11 +89,20 @@ class MovieFragment : Fragment(), OnListFragmentInteractionListener {
             }
         )
     }
+    private var selectedItem: Any? = null // To hold the currently selected item
+    // Implement the onItemClick methods from the listener
+    override fun onItemClick(movie: Movie) {
+        Toast.makeText(context, "Clicked Movie: ${movie.title}", Toast.LENGTH_LONG).show()
+        selectedItem = movie // Store the selected item
+    }
 
-    /*
-     * What happens when a particular movie is clicked.
-     */
-    override fun onItemClick(item: Movie) {
-        Toast.makeText(context, "Clicked: ${item.title}", Toast.LENGTH_LONG).show()
+    override fun onItemClick(actor: Actor) {
+        Toast.makeText(context, "Clicked Actor: ${actor.title}", Toast.LENGTH_LONG).show()
+        selectedItem = actor // Store the selected item
+    }
+
+    // Optional method to get the current item
+    override fun getCurrentItem(): Any? {
+        return selectedItem
     }
 }
