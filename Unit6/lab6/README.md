@@ -16,15 +16,15 @@ The following **required** functionality is completed:
 
 - [x] (3 pts) **Add and implement Bottom Navigation to your application**
   - Allows navigation between books and articles using Bottom Navigation.
-  - ![GIF showing Bottom Navigation functionality](http://i.imgur.com/link/to/your/gif/file.gif) <!-- Replace this link with your actual image/GIF link -->
+  - ![GIF showing Bottom Navigation functionality](https://github.com/Venrite/zg59-CS388-001/blob/main/Unit6/lab6/lab6part_1.gif) <!-- Replace this link with your actual image/GIF link -->
 
 - [x] (4 pts) **Dynamically use fragments within Activities**
   - Displays books and articles in their respective fragments, dynamically managed within the main activity.
-  - ![GIF showing fragment management](http://i.imgur.com/link/to/your/gif/file.gif) <!-- Replace this link with your actual image/GIF link -->
+  - ![GIF showing fragment management](https://github.com/Venrite/zg59-CS388-001/blob/main/Unit6/lab6/lab6part2_3.gif) <!-- Replace this link with your actual image/GIF link -->
 
 - [x] (3 pts) **Customize the toolbar and icons**
   - Provides a unique toolbar experience for each section with relevant icons.
-  - ![GIF showing toolbar customization](http://i.imgur.com/link/to/your/gif/file.gif) <!-- Replace this link with your actual image/GIF link -->
+  - ![GIF showing toolbar customization](https://github.com/Venrite/zg59-CS388-001/blob/main/Unit6/lab6/lab6part2_3.gif) <!-- Replace this link with your actual image/GIF link -->
 
 ### Stretch Features
 
