@@ -16,7 +16,7 @@ The following **required** functionality is completed:
 
 - [x] (3 pts) **Add and implement Bottom Navigation to your application**
   - Allows navigation between books and articles using Bottom Navigation.
-  - ![GIF showing Bottom Navigation functionality](https://github.com/Venrite/zg59-CS388-001/blob/main/Unit6/lab6/lab6part_1.gif) <!-- Replace this link with your actual image/GIF link -->
+  - ![GIF showing Bottom Navigation functionality](https://github.com/Venrite/zg59-CS388-001/blob/main/Unit6/lab6/lab6part1.gif) <!-- Replace this link with your actual image/GIF link -->
 
 - [x] (4 pts) **Dynamically use fragments within Activities**
   - Displays books and articles in their respective fragments, dynamically managed within the main activity.
