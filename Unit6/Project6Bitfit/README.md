@@ -22,13 +22,13 @@ The following **optional** features are implemented:
 
 The following **additional** features are implemented:
 
-- [x] ** Displays total caloric intake, amount of data entries, and displays the average calories per item entered **
-
+- [x] **Displays total caloric intake, amount of data entries, and displays the average calories per item entered**
+- [x] **Delete individual elements by longpressing their entry**
 ## Video Walkthrough
 
 Here's a walkthrough of implemented user stories:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='https://github.com/Venrite/zg59-CS388-001/blob/Unit6Project/Unit6/Project6Bitfit/project6.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 <!-- Replace this with whatever GIF tool you used! -->
 GIF created with screen to gif
