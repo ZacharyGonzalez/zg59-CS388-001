@@ -34,6 +34,7 @@ Do you love me provides personalized reminders, notifications, and love letters 
 5. User can view more options for an entry
 6. User can edit entries
 7. User can see analytics
+8. User can press a Big Red Button to get attention
 
 **Optional Features**
 
