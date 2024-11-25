@@ -109,7 +109,7 @@ To provide intangible comfort by consistently affirming interest and emotional c
 
 ## Wireframes
 
-[Add picture of your hand sketched wireframes in this section] <img src="https://github.com/Venrite/zg59-CS388-001/blob/FinalProject/Final%20Project/DYLM.png" width=600>
+[Add picture of your hand sketched wireframes in this section] <img src="https://github.com/Venrite/zg59-CS388-001/blob/FinalProject/DYLM/DYLM.png" width=600>
 
 <br>
 
