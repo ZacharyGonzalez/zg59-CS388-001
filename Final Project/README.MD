@@ -78,36 +78,30 @@ Do you love me provides personalized reminders, notifications, and love letters 
 - Dashboard screen
   - Tap on the Attention Button
     -triggers a signal or displays a card fragment
-
   - tap on the mailbox
     -navigate to Card View
-
   - tap on love letter
     -navigate to love letter details screen.
 
 - Create screen
   - Tap on the Notifications panel
     -navigate to create/edit notifications
-
   - Tap on the Reminders panel
     -navigate to create/edit Reminders
-
   - Tap on the Cards panel
     -navigate to create/edit Cards
 
 - User screen
   - Tap on the Analytics panel
     -navigate to metrics Details
-
   - Tap on the Edit Account panel
     -navigate to Account Details
-
   - Tap on the Settings panel
     -navigate to settings view
 
 ## Wireframes
 
-[Add picture of your hand sketched wireframes in this section] <img src="YOUR_WIREFRAME_IMAGE_URL" width=600>
+[Add picture of your hand sketched wireframes in this section] <img src="https://github.com/Venrite/zg59-CS388-001/blob/FinalProject/Final%20Project/DYLM.png" width=600>
 
 <br>
 
