@@ -8,21 +8,30 @@ Mobile App Dev - App Brainstorming Example
 
 ## Favorite Existing Apps - List
 1. Notepad
-1. Youtube
-1. Discord
-1. lok lok
-2. Final Fantasy War of The Lions
-3. C Compiler
+2. Youtube
+3. Discord
+4. lok lok
+5. Final Fantasy War of The Lions
+6. C Compiler
 
 ## New App Ideas - List
 1. Story Slider
    - Have the user generate a small prompt, send it to ChatGPT API to generate a sentence or two (which will become the text of the story slide) and send the sentences to an Image Generator API. Pair the two API outputs into one Story Slide out of 5, and continue generation to tell a small story based on the prompt.  
 
-7. Index-Cards
+2. Index-Cards
     - Create index cards for study purposes, can use camera to take pictures and use them as cards as well. Able to also add questions on cards to be answered whe the card "flips over" (its a flash card). has dashboard for multiple decks to chose from, and statistics on how well user performs on decks. 
 
-10. DYLM
-    -    Do you love me will be an app that pairs users and will notify the user if their other has pressed an "attention" button (screen for info and asking for attention, can post statistics to social media like a snapchat streak but for couples). Users can add cards to be viewed by the other with conditions (has pressed attention button/ has been x time since cards creation/ app hasnt been accessed for x time)(screen for making card and viewing cards). This app will seek to address relationship problems stemming from lack of attention/lack of "romance". Can also use the Lok-lok style idea but instead of wallpapers it can be simplified to storing in the app database. If possible generate a synced google calandar that removes holidays and only shows what each other has created themselves. Provide notification reminders to users that if they havent talked to the other, that they should say something, anything, so they know they do exist on their mind. Provides an "assistance" panel where user can toggle if they want customizable suggestion notifications (starts as premades, can be modified)like "buy her a vase to anticipate receiving flowers" "buy the next item (if affordable) that reminds you of her and give it to her" etc.
+3. DYLM
+    - Do you love me will be an app that pairs users and will notify the user if their other has pressed an "attention" button (screen for info and asking for attention, can post statistics to social media like a snapchat streak but for couples). Users can add cards to be viewed by the other with conditions (has pressed attention button/ has been x time since cards creation/ app hasnt been accessed for x time)(screen for making card and viewing cards). This app will seek to address relationship problems stemming from lack of attention/lack of "romance". Can also use the Lok-lok style idea but instead of wallpapers it can be simplified to storing in the app database. If possible generate a synced google calandar that removes holidays and only shows what each other has created themselves. Provide notification reminders to users that if they havent talked to the other, that they should say something, anything, so they know they do exist on their mind. Provides an "assistance" panel where user can toggle if they want customizable suggestion notifications (starts as premades, can be modified)like "buy her a vase to anticipate receiving flowers" "buy the next item (if affordable) that reminds you of her and give it to her" etc.
+
+4. Sands
+   - an interactive game based on the old flash falling sand games. Place elements within the playspace that will interect with eachother using a mock physics engine, with the unique twist that the phones orientation affects gravity. Elements will always aim to fall to the lowest point of the phone, but if no orientation exists the elements expand in all directions as if they were building a hill on that spot.
+     
+6. Git-Good Alarm
+   -Monitors your Git and notifies you if you havent made any contributions recently, or havent made a project repo in a while. This is essentially for students to make sure they stay active in their educations to build out their portfolio. App will also take user information such as topics they have learned and provide suggestions for projects based on what the user believes they already know. 
+   
+8. Group Wallpaper
+  -lok-lok like clone where users can share a white board wallpaper, where everyone can draw on it and it will be displayed on everyones phone wallpaper (can be set to only lock screen, or only viewable in app). Unlike other versions of this app, this one has settings to modify the group room such as a round robin style artist per day who is the only one who can draw, making it so the eraser is disabled and its constantly being drawn ontop of eachothers work, or settings such as having every user only able to draw in a space of the wallpaper but not the entire wallpaper, having users work together for an image, or enabling a setting that only shows the image at a set time so its a surprise. 
 
 ## Top 3 New App Ideas
 1.  DYLM
