@@ -1,9 +1,9 @@
 ---
-title: Untitled
+title: Zack's Brainstorming
 
 ---
 
-Mobile App Dev - App Brainstorming Example
+Mobile App Dev - Brainstorming for Codepath
 ===
 
 ## Favorite Existing Apps - List
