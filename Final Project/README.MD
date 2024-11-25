@@ -10,7 +10,15 @@
 
 ### Description
 
-Do you love me provides personalized reminders, notifications, and love letters to be accessed from a users phone. The notifications are customizable but come baseline as "You should send her a message" or "buy her a small gift of something that reminded you of her" and things of similar nature. Allows love letters to be written that will be displayed through the app and provides a button to be pressed that will (If i'm capable of it) notify the spouses app that the user "wants attention"; if not it'll display a card that was created instead. cards are not like love letters, cards are specifically shown for the trigger event, so it should be personalized towards the moment. 
+Do You Love Me is a relationship-focused app designed to enhance emotional connections through personalized reminders, notifications, love letters, and collectable personalized cards. Users can set customizable notifications with thoughtful suggestions, such as "You should send them a message" or "Buy a small gift that reminded you of them."
+
+The app enables users to write love letters, which are displayed in a dedicated feed, and create personalized cards for specific moments or trigger events. It also features a "Big Red Attention Button" that, when pressed, notifies the user's partner (if supported) or displays a pre-written card instead. Unlike love letters, cards are tailored for immediate, situational use and help users express themselves in a meaningful way.
+
+The purposes of this app are:
+To offer a gentle way for individuals in a relationship to request attention.
+To help couples with emotional communication challenges express themselves through playful love letters and personalized cards that can be collected.
+To allow users to set customized notifications and reminders for their spouse, reinforcing how they wish to be loved.
+To provide intangible comfort by consistently affirming interest and emotional connection within the relationship.
 
 ### App Evaluation
 
