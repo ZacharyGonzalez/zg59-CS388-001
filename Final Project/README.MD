@@ -14,7 +14,6 @@ Do you love me provides personalized reminders, notifications, and love letters 
 
 ### App Evaluation
 
-[Evaluation of your app across the following attributes]
 - **Category:** Relationships
 - **Mobile:** Notifications, haptic feedback, camera, ease of access
 - **Story:** Helps an individual to remember certain things or perform actions, and act coy with their signficiant other
