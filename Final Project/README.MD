@@ -23,11 +23,11 @@ To provide intangible comfort by consistently affirming interest and emotional c
 ### App Evaluation
 
 - **Category:** Relationships
-- **Mobile:** Notifications, haptic feedback, camera, ease of access
-- **Story:** Helps an individual to remember certain things or perform actions, and act coy with their signficiant other
-- **Market:** Anybody in a relationship, although the target audience would be towards ADHD or stoic individuals who lack emotional signaling and have bad timing.
-- **Habit:** Users would hopefully set the app up for their needs and then act on the notifications, only Occasionally accessing the app to view notes written for them or to hit the button
-- **Scope:** Most features are incredibly simple, with minimal features the app would still be usable, and the desired results are well documented: help aid relationships via personallized reminders. The hardest features would be implementing interactability between any users.
+- **Mobile:** Designed for ease of use with features like notifications, haptic feedback, camera integration, and accessible navigation
+- **Story:** Helps users stay mindful in their relationships, remember thoughtful gestures, and playfully communicate with their significant other.
+- **Market:** Suitable for anyone in a relationship, with a focus on individuals who may struggle with emotional signaling or timing, such as those with ADHD or stoic tendencies.
+- **Habit:** Users should configure the app to suit their needs, acting on periodic notifications. Users will occasionally access the app to view notes, interact with cards, use the Big Red Button, or modify notifications and reminders..
+- **Scope:** The app's core features are simple yet effective, ensuring usability even with minimal functional implementations. The most complex aspect lies in implementing interaction between users for the Big Red Button.
 
 ## Product Spec
 
@@ -35,34 +35,34 @@ To provide intangible comfort by consistently affirming interest and emotional c
 
 **Required Features**
 
-1. User can create an account
-2. User can login
-3. User can create entries
-4. User can view entries 
-5. User can view more options for an entry
-6. User can edit entries
-7. User can see analytics
-8. User can press a Big Red Button to get attention
+1. User can create an account.
+2. User can login.
+3. User can create entries.
+4. User can view entries.
+5. User can view more options for an entry.
+6. User can edit entries.
+7. User can see analytics.
+8. User can press a Big Red Button to get attention.
 
 **Optional Features**
 
-1. Big Red Attention button signals another user
-2. Cards contain images
+1. Big Red Attention button sends a signal to the spouses app.
+2. Cards can include images.
 
 ### 2. Screen Archetypes
 
 - LOGIN
-  - logs the user in 
-  - provides a sign-up method
+  - Log in to an account.
+  - Create a new account.
 
 - Dashboard
-  - Contains the big red attention button
-  - Has a constant cycling feed of love letters
-  - Has a "mail-box" for the cards that can be viewed
+  - Features the Big Red Attention button
+  - Displays a cycling feed of love letters.
+  - Includes a mailbox for viewing cards.
 
 - User
-  - Contains metrics
-  - Modify account details and app settings
+  - Displays user metrics.
+  - Allows modification of account details and app settings.
 
 - Create
   - View, create, and edit notifications for the phone
@@ -80,32 +80,32 @@ To provide intangible comfort by consistently affirming interest and emotional c
 **Flow Navigation** (Screen to Screen)
 
 - Login screen
-  - on sucessful login navigates to dashboard
-  - on account creation navigates to a sign-up screen, then back to login
+  - on sucessful login navigates to dashboard.
+  - on account creation navigates to a sign-up screen, then back to login.
 
 - Dashboard screen
-  - Tap on the Attention Button
-    -triggers a signal or displays a card fragment
-  - tap on the mailbox
-    -navigate to Card View
-  - tap on love letter
-    -navigate to love letter details screen.
+  - Tap on the Attention Button:
+    -Triggers a signal or displays a card fragment.
+  - Tap on the mailbox:
+    -Navigate to Card View.
+  - Tap on love letter:
+    -Navigate to love letter details screen.
 
 - Create screen
-  - Tap on the Notifications panel
-    -navigate to create/edit notifications
-  - Tap on the Reminders panel
-    -navigate to create/edit Reminders
-  - Tap on the Cards panel
-    -navigate to create/edit Cards
+  - Tap on the Notifications panel:
+    -Navigate to create/edit notifications.
+  - Tap on the Reminders panel:
+    -Navigate to create/edit Reminders.
+  - Tap on the Cards panel:
+    -Navigate to create/edit Cards.
 
 - User screen
-  - Tap on the Analytics panel
-    -navigate to metrics Details
-  - Tap on the Edit Account panel
-    -navigate to Account Details
-  - Tap on the Settings panel
-    -navigate to settings view
+  - Tap on the Analytics panel:
+    -Navigate to metrics Details.
+  - Tap on the Edit Account panel:
+    -Navigate to Account Details.
+  - Tap on the Settings panel:
+    -Navigate to Settings View.
 
 ## Wireframes
 
