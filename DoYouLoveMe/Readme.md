@@ -6,6 +6,7 @@
 1. [Product Spec](#Product-Spec)
 1. [Wireframes](#Wireframes)
 
+LINK TO PROJECT REQUIREMENTS: https://github.com/MattToegel/CS388/blob/Unit7/Unit7/project-requirements.md
 ## Overview
 
 ### Description
@@ -148,14 +149,20 @@ this section]
 
 ## Completed user stories
 
-- Can make cards with a title and content
-- API provides inspiration for the cards
-- Cards have a details view to see entire content if message is long
-- Management of the cards is from the settings screen
-- Has a light and dark mode
-- has a secure login and sign out
-- able to create an account
-- Persistent Data for offline use
+-Login, create an account, and sign out via firebase
+-Can create "cards" saved locally
+-API providing quotes to assist card generation
+-Room database provides CRUD actions for cards
+-View of cards provides overall view
+-Able to expand the Cards for more details
+-Persistent changable settings 
+-Bottom nav bar to travel between the views (set up for easy expansion later)
+-Haptic feedback for card creation and long press for deletion 
+-Consistent UI Theme for both light and dark versions of the app
+-Notifications of invalid operations via Toasts
+
+-Abandoned Big red button concept
+-Abandonded reminder section
 
 [Add video/gif of your current application that shows build progress]
 <img src="https://github.com/Venrite/zg59-CS388-001/blob/Final/DoYouLoveMe/final%20predemo.gif" width=600>
