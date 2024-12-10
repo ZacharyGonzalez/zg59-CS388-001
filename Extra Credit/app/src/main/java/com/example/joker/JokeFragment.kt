@@ -20,7 +20,7 @@ class JokeFragment : Fragment(), OnListFragmentInteractionListener {
     private lateinit var adapter: JokeRecyclerViewAdapter
     private val jokesList = mutableListOf<Joke>()
     private var isLoading = false
-    private var currentPage = 1  // Track the current page for pagination
+    private var currentPage = 1 
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
@@ -31,12 +31,10 @@ class JokeFragment : Fragment(), OnListFragmentInteractionListener {
         recyclerView = view.findViewById<RecyclerView>(R.id.list)
         val context = view.context
 
-        // Initialize the adapter
         adapter = JokeRecyclerViewAdapter(jokesList, this)
         recyclerView.adapter = adapter
         recyclerView.layoutManager = GridLayoutManager(context, 1)
 
-        // Load initial jokes
         fetchJokes(progressBar)
 
         // Add scroll listener
@@ -58,18 +56,15 @@ class JokeFragment : Fragment(), OnListFragmentInteractionListener {
         progressBar.show()
         val myApiKey: String = BuildConfig.API_KEY
 
-        // Create OkHttpClient instance
         val client = OkHttpClient()
 
-        // Build the request
         val request = Request.Builder()
-            .url("https://jokeapi-v2.p.rapidapi.com/joke/Any?type=single&amount=10&page=$currentPage")  // Adjust the URL to fetch multiple jokes
+            .url("https://jokeapi-v2.p.rapidapi.com/joke/Any?type=single&amount=10&page=$currentPage")
             .get()
-            .addHeader("x-rapidapi-key", myApiKey)  // Use API key from BuildConfig
+            .addHeader("x-rapidapi-key", myApiKey)
             .addHeader("x-rapidapi-host", "jokeapi-v2.p.rapidapi.com")
             .build()
 
-        // Execute the request
         client.newCall(request).enqueue(object : Callback {
             override fun onResponse(call: Call, response: Response) {
                 progressBar.hide()
@@ -83,7 +78,6 @@ class JokeFragment : Fragment(), OnListFragmentInteractionListener {
                     val jokesResponse = gson.fromJson(responseBody, JokesResponse::class.java)
 
                     if (jokesResponse.jokes.isNotEmpty()) {
-                        // Update the jokes list and notify the adapter
                         jokesList.addAll(jokesResponse.jokes)
                         activity?.runOnUiThread {
                             adapter.notifyDataSetChanged()
@@ -112,7 +106,7 @@ class JokeFragment : Fragment(), OnListFragmentInteractionListener {
 override fun onItemClick(item: Joke) {
     val jokeDetailFragment = JokeDetailFragment.newInstance(item.joke ?: "No joke available")
     requireActivity().supportFragmentManager.beginTransaction()
-        .replace(R.id.content, jokeDetailFragment) // Make sure to use the correct container ID
+        .replace(R.id.content, jokeDetailFragment)
         .addToBackStack(null)
         .commit()
 }

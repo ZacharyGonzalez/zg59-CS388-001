@@ -11,7 +11,7 @@ data class Joke(
     @SerializedName("id") val id: Int,
     @SerializedName("category") val category: String,
     @SerializedName("type") val type: String,
-    @SerializedName("joke") val joke: String?,  // For "single" type jokes
+    @SerializedName("joke") val joke: String?,
     @SerializedName("flags") val flags: Flags,
     @SerializedName("safe") val safe: Boolean,
     @SerializedName("lang") val lang: String

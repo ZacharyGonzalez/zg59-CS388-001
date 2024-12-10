@@ -1,13 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
-
-    <item
-        android:id="@+id/nav_books"
-        android:icon="@drawable/baseline_post_add_24"
-        android:title="Books" />
-
-    <item
-        android:id="@+id/nav_articles"
-        android:icon="@drawable/baseline_view_headline_24"
-        android:title="Articles" />
+<item
+    android:id="@+id/nav_dashboard"
+    android:icon="@drawable/baseline_post_add_24"
+    android:title="Dashboard" />
+<item
+    android:id="@+id/nav_nutrition"
+    android:icon="@drawable/baseline_view_headline_24"
+    android:title="Nutrition List" />
 </menu>

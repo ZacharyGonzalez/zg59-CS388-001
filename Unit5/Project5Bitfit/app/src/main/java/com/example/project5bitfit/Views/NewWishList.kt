@@ -10,17 +10,18 @@ import com.example.project5bitfit.DataItems.NutritionEntity
 import com.example.project5bitfit.DataItems.NutritionModel
 import com.example.project5bitfit.databinding.FragmentNewWishListBinding
 import com.google.android.material.bottomsheet.BottomSheetDialogFragment
+import com.google.android.material.snackbar.Snackbar
 import kotlinx.coroutines.Dispatchers.IO
+import kotlinx.coroutines.flow.toList
 import kotlinx.coroutines.launch
 
 class NewWishList : BottomSheetDialogFragment() {
-    private lateinit var binding : FragmentNewWishListBinding
-    private lateinit var nutritionModel : NutritionModel
+    private lateinit var binding: FragmentNewWishListBinding
+    private lateinit var nutritionModel: NutritionModel
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-        val activity = requireActivity()
-        nutritionModel = ViewModelProvider(activity)[NutritionModel::class.java]
+        nutritionModel = ViewModelProvider(requireActivity())[NutritionModel::class.java]
         binding.submitButton.setOnClickListener { saveAction() }
     }
 
@@ -30,23 +31,28 @@ class NewWishList : BottomSheetDialogFragment() {
     }
 
     private fun saveAction() {
-        val name = binding.bitFitName.text.toString()
-        val caloriesAmount = binding.calories.text.toString()
-        val time = binding.time.text.toString()
+        val name = binding.bitFitName.text.toString().trim()
+        val calories = binding.calories.text.toString().trim()
+        val time = binding.time.text.toString().trim()
 
-        //Insert the data into the database
-        lifecycleScope.launch(IO) {
-            (requireActivity().application as MyApplication).db.nutrientDao().insert(
-                NutritionEntity(name = name, calories = caloriesAmount, time = time)
-            )
+        if (name.isEmpty() || calories.isEmpty() || time.isEmpty()) {
+            Snackbar.make(binding.root, "All fields are required", Snackbar.LENGTH_SHORT).show()
+            return
         }
 
-        //Clear the fields of anything lingering
+        lifecycleScope.launch(IO) {
+            val db = (requireActivity().application as MyApplication).db
+            db.nutrientDao().insert(NutritionEntity(name = name, calories = calories, time = time))
+
+            // Update ViewModel
+            val updatedList = db.nutrientDao().getAll().toList()
+            nutritionModel.updateWishList(updatedList)
+        }
+
+        // Clear fields and dismiss the fragment
         binding.bitFitName.text?.clear()
         binding.calories.text?.clear()
         binding.time.text?.clear()
-
-        //Removes the fragment display
         dismiss()
     }
 }

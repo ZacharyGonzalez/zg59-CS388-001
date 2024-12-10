@@ -1,0 +1,13 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="Theme.MyApp" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">#F8B7D4</item>
+        <item name="colorPrimaryVariant">#D8A6D6</item>
+        <item name="colorOnPrimary">#FFFFFF</item>
+        <item name="colorSecondary">#FFB3B3</item>
+        <item name="colorOnSecondary">#333333</item>
+        <item name="android:windowBackground">#FFF4E1</item>
+        <item name="android:textColorPrimary">#333333</item>
+    </style>
+
+</resources>

@@ -1,25 +1,14 @@
 package com.example.project5bitfit.DataItems
 
+import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 
-class NutritionModel: ViewModel() {
-    var wishList = MutableLiveData<MutableList<NutritionItem>>()
-    init {
-        wishList.value = mutableListOf()
+class NutritionModel : ViewModel() {
+    private val _wishList = MutableLiveData<List<NutritionItem>>()
+    val wishList: LiveData<List<NutritionItem>> get() = _wishList
+
+    fun updateWishList(newList: List<NutritionEntity>) {
+        _wishList.postValue(newList)
     }
-
-    //Declaring it a mutable-list breaks other functions so we do this transition to be able to live update the data.
-    fun updateWishList(nutritionList: List<NutritionEntity>) {
-
-        val newWishList = nutritionList.map { entity -> NutritionItem(
-                name = entity.name,
-                calories = entity.calories,
-                time = entity.time)
-        }.toMutableList()
-
-        wishList.value = newWishList
-        wishList.postValue(newWishList) //Notify our observer of the change
-    }
-
 }

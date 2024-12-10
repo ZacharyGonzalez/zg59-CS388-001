@@ -6,16 +6,19 @@ import com.example.project5bitfit.DataItems.NutritionEntity
 import kotlinx.coroutines.flow.Flow
 
 @Dao
-interface NutritionDao {
-    @Query("SELECT * FROM nutrient_table")
+interface NutrientDao {
+    @Query("SELECT * FROM nutrient_table ORDER BY time ASC")
     fun getAll(): Flow<List<NutritionEntity>>
 
     @Insert
-    fun insertAll(foods : List<NutritionEntity>)
+    suspend fun insert(entity: NutritionEntity)
 
-    @Insert
-    fun insert(foodEntity: NutritionEntity)
-
+    // Correcting the return type for deleteAll()
     @Query("DELETE FROM nutrient_table")
-    fun deleteAll()
+    suspend fun deleteAll(): Int // Returns the number of rows deleted.
+
+    @Query("DELETE FROM nutrient_table WHERE id = :id")
+    suspend fun delete(id: Long): Int // Returns the number of rows deleted.
 }
+
+

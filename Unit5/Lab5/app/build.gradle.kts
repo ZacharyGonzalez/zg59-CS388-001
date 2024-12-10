@@ -24,7 +24,6 @@ android {
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
         buildConfigField("String", "API_KEY", apikeyProperties["API_KEY"].toString())
-
     }
 
     buildTypes {

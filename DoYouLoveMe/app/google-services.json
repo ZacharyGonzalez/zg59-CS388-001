@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "224896818627",
+    "project_id": "doyouloveme-aca78",
+    "storage_bucket": "doyouloveme-aca78.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:224896818627:android:65d026abbc39b729cbb176",
+        "android_client_info": {
+          "package_name": "com.example.doyouloveme"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDNY9-qJJRKVOrsIcJ6YaBBGkoMnHuL6cI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

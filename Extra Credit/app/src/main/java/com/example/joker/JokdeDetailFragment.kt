@@ -42,10 +42,10 @@ class JokeDetailFragment : Fragment() {
 
         val backButton = view.findViewById<Button>(R.id.backButton)
         backButton.setOnClickListener {
-            requireActivity().supportFragmentManager.popBackStack()  // Go back to the previous fragment
+            requireActivity().supportFragmentManager.popBackStack()
         }
 
-        val captureButton = view.findViewById<Button>(R.id.SaveImage) // Adjusted to your button ID
+        val captureButton = view.findViewById<Button>(R.id.SaveImage)
         captureButton.setOnClickListener {
             if (ContextCompat.checkSelfPermission(requireContext(), Manifest.permission.WRITE_EXTERNAL_STORAGE)
                 == PackageManager.PERMISSION_GRANTED) {

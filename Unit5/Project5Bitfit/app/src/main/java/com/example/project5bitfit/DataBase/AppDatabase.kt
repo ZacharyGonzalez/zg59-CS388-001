@@ -8,7 +8,7 @@ import com.example.project5bitfit.DataItems.NutritionEntity
 @Database(entities = [NutritionEntity::class], version = 1)
 abstract class AppDatabase : RoomDatabase()
 {
-    abstract fun nutrientDao() : NutritionDao
+    abstract fun nutrientDao() : NutrientDao
 
     companion object
     {
