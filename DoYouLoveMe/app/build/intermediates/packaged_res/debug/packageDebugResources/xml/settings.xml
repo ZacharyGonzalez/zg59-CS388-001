@@ -1,0 +1,28 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Theme Change -->
+    <PreferenceCategory
+        android:title="Appearance">
+
+        <ListPreference
+            android:key="theme_preference"
+            android:title="Choose Theme"
+            android:summary="Select a theme for the app"
+            android:defaultValue="light"
+            android:entries="@array/theme_entries"
+            android:entryValues="@array/theme_values"
+            android:iconSpaceReserved="false" />
+    </PreferenceCategory>
+
+    <!-- Other Settings -->
+    <PreferenceCategory
+        android:title="General">
+
+        <SwitchPreferenceCompat
+            android:key="notifications"
+            android:title="Enable Notifications"
+            android:summary="Receive notifications about your progress"
+            android:defaultValue="true" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

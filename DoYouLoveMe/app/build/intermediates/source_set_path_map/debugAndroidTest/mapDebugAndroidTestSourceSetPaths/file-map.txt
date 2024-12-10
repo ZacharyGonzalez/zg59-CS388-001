@@ -1,0 +1,6 @@
+com.example.doyouloveme.test.app-androidTest-0 C:\NJIT\zg59-CS388-001\DoYouLoveMe\app\build\generated\res\resValues\androidTest\debug
+com.example.doyouloveme.test.app-mergeDebugAndroidTestResources-1 C:\NJIT\zg59-CS388-001\DoYouLoveMe\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\merged.dir
+com.example.doyouloveme.test.app-mergeDebugAndroidTestResources-2 C:\NJIT\zg59-CS388-001\DoYouLoveMe\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\stripped.dir
+com.example.doyouloveme.test.app-debugAndroidTest-3 C:\NJIT\zg59-CS388-001\DoYouLoveMe\app\build\intermediates\merged_res\debugAndroidTest\mergeDebugAndroidTestResources
+com.example.doyouloveme.test.app-tracing-1.2.0-4 C:\Users\slipe\.gradle\caches\transforms-4\073f0544e024c8718fed648599242308\transformed\tracing-1.2.0\res
+com.example.doyouloveme.test.app-core-1.6.1-5 C:\Users\slipe\.gradle\caches\transforms-4\9628de6279c272d11598ce6e0beaedd9\transformed\core-1.6.1\res

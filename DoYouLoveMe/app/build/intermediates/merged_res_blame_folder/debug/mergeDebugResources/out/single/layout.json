@@ -1,0 +1,38 @@
+[
+    {
+        "merged": "com.example.doyouloveme.app-mergeDebugResources-4:/layout/fragment_details.xml",
+        "source": "com.example.doyouloveme.app-main-7:/layout/fragment_details.xml"
+    },
+    {
+        "merged": "C:\\Users\\slipe\\.gradle\\daemon\\8.7\\com.example.doyouloveme.app-mergeDebugResources-4:\\layout\\fragment_details.xml",
+        "source": "C:\\Users\\slipe\\.gradle\\daemon\\8.7\\com.example.doyouloveme.app-main-7:\\layout\\fragment_details.xml"
+    },
+    {
+        "merged": "C:\\Users\\slipe\\.gradle\\daemon\\8.7\\com.example.doyouloveme.app-mergeDebugResources-4:\\layout\\fragment_add_entry.xml",
+        "source": "C:\\Users\\slipe\\.gradle\\daemon\\8.7\\com.example.doyouloveme.app-main-7:\\layout\\fragment_add_entry.xml"
+    },
+    {
+        "merged": "C:\\Users\\slipe\\.gradle\\daemon\\8.7\\com.example.doyouloveme.app-mergeDebugResources-4:\\layout\\fragment_dashboard.xml",
+        "source": "C:\\Users\\slipe\\.gradle\\daemon\\8.7\\com.example.doyouloveme.app-main-7:\\layout\\fragment_dashboard.xml"
+    },
+    {
+        "merged": "C:\\Users\\slipe\\.gradle\\daemon\\8.7\\com.example.doyouloveme.app-mergeDebugResources-4:\\layout\\activity_main.xml",
+        "source": "C:\\Users\\slipe\\.gradle\\daemon\\8.7\\com.example.doyouloveme.app-main-7:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\slipe\\.gradle\\daemon\\8.7\\com.example.doyouloveme.app-mergeDebugResources-4:\\layout\\fragment_record.xml",
+        "source": "C:\\Users\\slipe\\.gradle\\daemon\\8.7\\com.example.doyouloveme.app-main-7:\\layout\\fragment_record.xml"
+    },
+    {
+        "merged": "C:\\Users\\slipe\\.gradle\\daemon\\8.7\\com.example.doyouloveme.app-mergeDebugResources-4:\\layout\\entry_item.xml",
+        "source": "C:\\Users\\slipe\\.gradle\\daemon\\8.7\\com.example.doyouloveme.app-main-7:\\layout\\entry_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\slipe\\.gradle\\daemon\\8.7\\com.example.doyouloveme.app-mergeDebugResources-4:\\layout\\activity_login.xml",
+        "source": "C:\\Users\\slipe\\.gradle\\daemon\\8.7\\com.example.doyouloveme.app-main-7:\\layout\\activity_login.xml"
+    },
+    {
+        "merged": "C:\\Users\\slipe\\.gradle\\daemon\\8.7\\com.example.doyouloveme.app-mergeDebugResources-4:\\layout\\activity_signup.xml",
+        "source": "C:\\Users\\slipe\\.gradle\\daemon\\8.7\\com.example.doyouloveme.app-main-7:\\layout\\activity_signup.xml"
+    }
+]

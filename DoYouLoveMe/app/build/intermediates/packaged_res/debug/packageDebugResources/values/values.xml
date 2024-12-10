@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="theme_entries">
+        <item>Light Theme</item>
+        <item>Dark Theme</item>
+    </string-array>
+    <string-array name="theme_values">
+        <item>light</item>
+        <item>dark</item>
+    </string-array>
+    <string name="gcm_defaultSenderId" translatable="false">224896818627</string>
+    <string name="google_api_key" translatable="false">AIzaSyDNY9-qJJRKVOrsIcJ6YaBBGkoMnHuL6cI</string>
+    <string name="google_app_id" translatable="false">1:224896818627:android:65d026abbc39b729cbb176</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyDNY9-qJJRKVOrsIcJ6YaBBGkoMnHuL6cI</string>
+    <string name="google_storage_bucket" translatable="false">doyouloveme-aca78.firebasestorage.app</string>
+    <string name="project_id" translatable="false">doyouloveme-aca78</string>
+    <style name="AppTheme_Dark" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">#3700B3</item> 
+        <item name="colorPrimaryDark">#FF6200EE</item> 
+        <item name="colorAccent">#03DAC5</item> 
+    </style>
+    <style name="AppTheme_Light" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">#FF6200EE</item> 
+        <item name="colorPrimaryDark">#3700B3</item> 
+        <item name="colorAccent">#03DAC5</item> 
+    </style>
+    <style name="Theme.MyApp" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">#F8B7D4</item>
+        <item name="colorPrimaryVariant">#D8A6D6</item>
+        <item name="colorOnPrimary">#FFFFFF</item>
+        <item name="colorSecondary">#FFB3B3</item>
+        <item name="colorOnSecondary">#333333</item>
+        <item name="android:windowBackground">#FFF4E1</item>
+        <item name="android:textColorPrimary">#333333</item>
+    </style>
+</resources>
