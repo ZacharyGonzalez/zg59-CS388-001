@@ -158,7 +158,7 @@ this section]
 - Persistent Data for offline use
 
 [Add video/gif of your current application that shows build progress]
-<img src="YOUR_WIREFRAME_IMAGE_URL" width=600>
+<img src="https://github.com/Venrite/zg59-CS388-001/blob/Final/DoYouLoveMe/final%20predemo.gif" width=600>
 
 ## App Demo Video
 
