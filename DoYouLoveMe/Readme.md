@@ -144,13 +144,18 @@ this section]
 
 ## GitHub Project board
 
-[Add screenshot of your Project Board with the updated status of issues for Milestone 3. Note that these should include the updated issues you worked on for this sprint and not be a duplicate of Milestone 2 Project board.] <img src="YOUR_WIREFRAME_IMAGE_URL" width=600>
+[Add screenshot of your Project Board with the updated status of issues for Milestone 3. Note that these should include the updated issues you worked on for this sprint and not be a duplicate of Milestone 2 Project board.] <img src="https://github.com/Venrite/zg59-CS388-001/blob/Final/DoYouLoveMe/image_2024-12-09_210232099.png" width=600>
 
 ## Completed user stories
 
-- List the completed user stories from this unit
-- List any pending user stories / any user stories you decided to cut
-from the original requirements
+- Can make cards with a title and content
+- API provides inspiration for the cards
+- Cards have a details view to see entire content if message is long
+- Management of the cards is from the settings screen
+- Has a light and dark mode
+- has a secure login and sign out
+- able to create an account
+- Persistent Data for offline use
 
 [Add video/gif of your current application that shows build progress]
 <img src="YOUR_WIREFRAME_IMAGE_URL" width=600>
